@@ -182,7 +182,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   transition: opacity .6s var(--ease), transform .8s var(--ease), visibility 0s .6s;
 }
 .chapter.is-on { opacity: 1; visibility: visible; transform: translateY(-50%); pointer-events: auto; transition: opacity .7s var(--ease) .1s, transform .9s var(--ease) .1s, visibility 0s; }
-.chapter .display { font-size: clamp(54px, 8.4vw, 124px); }
+.chapter .display { font-size: clamp(44px, min(8.4vw, 12.5vh), 124px); }
 .eyebrow { color: var(--ink-2); margin: 0 0 18px; }
 .lede { color: var(--ink-2); max-width: 440px; margin: 22px 0 0; font-size: 16px; }
 .chapter .display, .chapter .lede, .chapter .eyebrow, .chapter .btns { transition: transform .9s var(--ease), opacity .8s var(--ease); }
